@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(250, 246, 249);
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+}
+
+/* configs page 1 */
+.page1 {
+    margin: 10%;
+    margin-top: 10%;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: flex-end;
+}
+
+.page1 .text {
+    font-size: 8rem;
+    margin-left: 30%;
+    line-height: 14rem;
+    color: #72005F;
+}
+.page1 .dog {
+	animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+#wise {
+    font-size: 5rem;
+    color:#BAA193;
+    margin-bottom: -10%;
+}
+
+#buttom {
+    font-size: 2.5rem;
+    background-color: #72005F;
+    color: white;
+    padding: 2rem 4rem 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#buttom:hover{
+    background-color: #b91ea0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* configs page 2 */
+.page2 {
+    margin: auto;
+    margin-top: 1%;
+    max-width: 90%;  
+}
+
+.page2 .header {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    color: #72005F;
+}
+
+#wise2 {
+    font-size: 3rem;
+    color:#BAA193;
+}
+
+.page2 .box {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: auto;
+    margin-top: 5%;
+    justify-items: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: #e4dcd8;
+}
+
+.page2 .box .advice-area {
+    margin: 10%;
+    font-size: 4rem;
+    color: #72005F;
+    font-weight: 800;
+}
+
+#author {
+    font-size: 3.5rem;
+    color:#BAA193;
+    font-weight: 500;
+    text-align: right;
+}
+
+#another_btn {
+    font-size: 2rem;
+    background-color: #72005F;
+    color: white;
+    margin: auto;
+    margin-top: 2.5%;
+    padding: 1rem 1rem 1rem;
+    border-radius: 20px;
+    width: 15vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+#another_btn:hover {
+    background-color: #b91ea0;
+}
