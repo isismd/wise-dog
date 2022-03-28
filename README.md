@@ -14,7 +14,8 @@ Extra: apply an animation to the animal on the homepage, to give the effect that
  - make the website responsive.
 ### Preview
 
-![wisedog](https://user-images.githubusercontent.com/97123796/160460182-da4adcad-bc25-48f4-bb6e-83977a68dee3.gif)
+![wisedog](https://user-images.githubusercontent.com/97123796/160480460-647d7ad2-6c7c-4bb6-ae0f-c97398070e81.gif)
+
 
 > Live Site URL: https://isismd.github.io/wise-dog/
 ## 🚀 Built with
