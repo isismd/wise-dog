@@ -141,6 +141,7 @@ a:link {
     }
     body {
         margin: 6rem;
+        overflow-y: scroll;
 
     }
     
