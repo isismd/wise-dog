@@ -27,7 +27,7 @@ body {
 .page1 .text {
     font-size: 8rem;
     margin-left: 30%;
-    line-height: 14rem;
+    line-height: 15rem;
     color: #72005F;
 }
 .page1 .dog {
@@ -88,20 +88,26 @@ a:link {
     grid-template-columns: 60% 40%;
     margin: auto;
     margin-top: 5%;
-    justify-items: center;
+    justify-items: right;
     align-items: center;
-    height: 50vh;
-    width: 50vw;
+    height: auto;
+    width: auto;
     background-color: #e4dcd8;
+    border-radius: 2rem;
 }
 
 .page2 .box .advice-area {
-    margin: 10%;
+    margin: 5%;
     font-size: 4rem;
     color: #72005F;
     font-weight: 800;
+    text-align: left;
+    padding-right: 2rem;
 }
-
+#picture img {
+    border-radius: 2rem;
+    object-fit: cover;
+}
 #author {
     font-size: 3.5rem;
     color:#BAA193;
@@ -125,4 +131,60 @@ a:link {
 
 #another_btn:hover {
     background-color: #b91ea0;
+}
+
+@media (max-width: 940px){
+    html {
+        font-size: 40%;
+    }
+    body {
+        margin: 6rem;
+
+    }
+    
+    .page1 {
+        display: inline;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .page1 .text{
+        margin-left: unset;
+        line-height: 18rem;
+    }
+
+    .page1 .dog img{
+        height: 35vh;
+    }
+    .page2 {
+        margin-left: unset;
+    }
+
+    .page2 .box{
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-top: 2rem;
+        width: 80vw;
+        height: auto;
+        
+        
+    }
+    .page2 .box .advice-area {
+        font-size: 4rem;
+    }
+    #picture {
+        padding-left: 3rem;
+    }
+    #picture img {
+        height: auto;
+        width: 70vw;
+    }
+
+    #another_btn {
+        width: 50vw;
+        margin: 15%;
+        font-size: 3rem;
+    }
 }
