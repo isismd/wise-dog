@@ -102,6 +102,7 @@ a:link {
     color: #72005F;
     font-weight: 800;
     text-align: left;
+    justify-items: left;
     padding-right: 2rem;
 }
 #picture img {
@@ -127,6 +128,7 @@ a:link {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 #another_btn:hover {
